@@ -1,5 +1,9 @@
-import AboutPage from "./pages/AboutPage";
+// import AboutPage from "./pages/AboutPage";
+import ListPage from "./pages/ListPage";
 // import HomePage from "./pages/HomePage";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.js";
 
 const App = () => {
   // const limones = []
@@ -7,7 +11,8 @@ const App = () => {
     <>
       {/*<p>Parrafo</p>*/}
       {/* <HomePage /> */}
-      <AboutPage />
+      {/* <AboutPage /> */}
+      <ListPage />
     </>
   );
 };
