@@ -2,7 +2,29 @@ import ListaUsuarios from "../components/ListaUsuarios";
 import NavBar from "../components/NavBar";
 
 const ListPage = () => {
-  const listaUsuarios = ["Marlen", "Linda", "Jorge", "Mayra"];
+  //   const listaUsuarios = ["Marlen", "Linda", "Jorge", "Mayra"];
+  const listaUsuarios = [
+    {
+      id: 1,
+      nombre: "Marlen",
+      edad: 12,
+    },
+    {
+      id: 2,
+      nombre: "Luis",
+      edad: 30,
+    },
+    {
+      id: 3,
+      nombre: "Julieta",
+      edad: 45,
+    },
+    {
+      id: 4,
+      nombre: "Mariano",
+      edad: 75,
+    },
+  ];
 
   const saludar = () => {
     console.log("Hola mundo");
