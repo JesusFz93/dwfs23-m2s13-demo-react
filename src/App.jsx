@@ -2,7 +2,14 @@
 import HomePage from "./pages/HomePage";
 
 const App = () => {
-  return <HomePage />;
+  // const limones = []
+  return (
+    <>
+      {/*<p>Parrafo</p>*/}
+      <HomePage />
+      {/* <AboutPage /> */}
+    </>
+  );
 };
 
 export default App;
